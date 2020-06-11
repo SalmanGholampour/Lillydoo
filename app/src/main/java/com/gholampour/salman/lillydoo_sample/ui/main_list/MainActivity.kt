@@ -21,6 +21,7 @@ class MainActivity() : BaseActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewModel.setAccessToken()
+
         viewModel.loadData()
     }
 
